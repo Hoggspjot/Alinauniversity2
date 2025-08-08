@@ -7,7 +7,6 @@ public class Task5 {
         int childAge = random.nextInt(0,18);
         boolean hasParent = random.nextBoolean();
 
-        System.out.println(childAge +" " + hasParent);
 
         if (childAge < 5) {
             System.out.printf("Если возраст ребенка равен %d, то ему нельзя кататься",childAge);
